@@ -26,8 +26,7 @@ warmStrategyCache({
 
 registerRoute(({ request }) => request.mode === "navigate", pageCache);
 
-// TODO: Implement asset caching
-// registerRoute();
+// Implement asset caching
 registerRoute(
   // Define a custom match function to match specific asset URLs
   ({ request }) =>

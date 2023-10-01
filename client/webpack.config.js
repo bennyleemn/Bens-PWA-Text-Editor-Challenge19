@@ -26,8 +26,8 @@ module.exports = () => {
         name: "My PWA",
         short_name: "PWA",
         description: "My Progressive Webapp",
-        background_color: light_blue,
-        theme_color: light_blue,
+        background_color: "blue",
+        theme_color: "blue",
         start_url: "./",
         publicPath: "./",
         icons: [
